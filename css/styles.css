@@ -1,0 +1,139 @@
+/* HTML ELEMENT SELECTER */
+body{
+    font-family: 'Monserrat';
+}
+
+h1{
+    font-family: 'Fascinate', cursive;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Monserrat-bold';
+    font-weight: bolder;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+h2{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+
+#title{
+    background-color: #8fd6ff;
+    color: white;
+}
+
+
+.container-fluid{
+    padding: 3% 12%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Monserrat-light'
+}
+
+.downlaod-button{
+    margin: 3% 5% 3% 0;
+}
+
+.title-img{
+    transform: rotate(25deg);
+    width: 105%;
+    position :absolute;
+    right: 3rem;
+    bottom: 1rem;
+}
+
+@media (max-width: 1028px){
+
+    .title-img{
+        transform: rotate(0);
+        position: static;
+        text-align: center;
+    }
+
+    #title{
+        text-align: center;
+    }
+}
+
+/* Feature */
+#feature{
+    padding: 7% 15%;
+    position: relative;
+}
+
+.feature-box{
+    text-align: center;
+}
+
+
+
+.feature-icon{
+    color: #8fd6ff;
+    padding-bottom: 10%;
+}
+
+.feature-icon:hover{
+    color: #a5d9f7;
+}
+
+#testomanial{
+    
+    text-align: center;
+    background-color: #8fd6ff;
+}
+
+.user-img{
+    width: 10%;
+    margin: 20px;
+
+}
+
+
+
+.carousel-item{
+    padding: 7% 15%;
+    min-height: 3rem;
+    padding-top: 3rem;
+}
+
+.cc{
+    padding: 10% 2%;
+}
+
+.download{
+    padding: 10%;
+    text-align: center;
+    background-color:#8fd6ff ;
+}
+
+#footer{
+    text-align: center;
+    padding: 5%;
+}
